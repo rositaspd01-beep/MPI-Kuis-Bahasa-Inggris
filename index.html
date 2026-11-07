@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Self Introduction – Media Pembelajaran Kelas 7</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFFBF0;--surf:#fff;--ink:#16323A;--mute:#5B6F75;--teal:#0F6B7A;--on:#fff;--tealbg:#DDF1F3;--sun:#FFC83D;--coral:#C9432D;--line:#D9E3E4;--ok:#1E8E5A;--okbg:#DFF5E9;--nobg:#FDE3DE;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1E22;--surf:#172A30;--ink:#EAF4F5;--mute:#9DB4B9;--teal:#5CC4D4;--on:#0F1E22;--tealbg:#1B3A41;--line:#2B454C;--ok:#5FD39B;--okbg:#173B2B;--nobg:#432420;--coral:#FF8A74}}
+:root[data-theme="dark"]{--bg:#0F1E22;--surf:#172A30;--ink:#EAF4F5;--mute:#9DB4B9;--teal:#5CC4D4;--on:#0F1E22;--tealbg:#1B3A41;--line:#2B454C;--ok:#5FD39B;--okbg:#173B2B;--nobg:#432420;--coral:#FF8A74}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Nunito,system-ui,sans-serif}
+h1,h2,h3{font-family:"Baloo 2",system-ui,sans-serif;line-height:1.2;margin:0 0 .5rem}
+main{max-width:860px;margin:0 auto;padding:1.25rem 1rem 3rem}
+header h1{font-size:clamp(1.9rem,6vw,2.8rem);font-weight:800}
+header p{color:var(--mute);margin:.25rem 0 1.25rem}
+.hi{background:var(--sun);color:#16323A;padding:0 .35em;border-radius:.3em}
+button{font:inherit;cursor:pointer;color:inherit}
+button:focus-visible,textarea:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem;margin-bottom:1.25rem}
+nav button{background:var(--surf);border:2px solid var(--line);border-radius:1rem;padding:.8rem .6rem;text-align:left;font-weight:700}
+nav button small{display:block;font-weight:400;color:var(--mute);font-size:.8rem}
+nav button .e{font-size:1.6rem;display:block}
+nav button[aria-selected=true]{background:var(--teal);color:var(--on);border-color:var(--teal)}
+nav button[aria-selected=true] small{color:inherit;opacity:.9}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:1rem;padding:1.1rem}
+.sub{display:flex;flex-wrap:wrap;gap:.5rem;margin:.5rem 0 1rem}
+.sub button,.chip{background:var(--tealbg);border:2px solid transparent;border-radius:2rem;padding:.35rem .9rem;font-weight:600}
+.sub button[aria-pressed=true],.chip[aria-pressed=true]{border-color:var(--teal);background:var(--surf)}
+.clues{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.6rem}
+.clue{min-height:5.5rem;background:var(--tealbg);border:2px dashed var(--teal);border-radius:1rem;padding:.8rem;text-align:left}
+.clue.open{background:var(--surf);border-style:solid}
+.note{background:var(--tealbg);border-left:5px solid var(--sun);padding:.6rem .9rem;border-radius:.5rem;margin:.8rem 0;font-size:.95rem}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+table{border-collapse:collapse;width:100%}th,td{border-bottom:1px solid var(--line);padding:.5rem;text-align:left;vertical-align:top}
+.wrap{overflow-x:auto}
+.flow{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+.flow .chip{display:flex;flex-direction:column;align-items:center;min-width:84px;font-size:.85rem}
+.flow .chip span{font-size:1.5rem}.arr{color:var(--mute)}
+.opts{display:grid;gap:.5rem;margin:.8rem 0}
+.opts button{background:var(--surf);border:2px solid var(--line);border-radius:.8rem;padding:.65rem .9rem;text-align:left}
+.opts button:not(:disabled):hover{border-color:var(--teal)}
+.opts .ok{background:var(--okbg);border-color:var(--ok)}.opts .no{background:var(--nobg);border-color:var(--coral)}.opts .sel{border-color:var(--teal);background:var(--tealbg)}
+.next{background:var(--teal);color:var(--on);border:0;border-radius:2rem;padding:.55rem 1.3rem;font-weight:700;margin-top:.5rem}
+.good{color:var(--ok);font-weight:600}.bad{color:var(--coral);font-weight:600}.count{color:var(--mute);margin:0}
+.bar{height:14px;border-radius:7px;background:var(--line);overflow:hidden;margin:.5rem 0}.bar i{display:block;height:100%;background:var(--ok)}
+.t0{border-bottom:3px solid #E8553D}.t1{border-bottom:3px solid #FFC83D}.t2{border-bottom:3px solid #2E9E6B}.t3{border-bottom:3px solid #3B8FD9}.t4{border-bottom:3px solid #9A6BD8}.t5{border-bottom:3px solid #E88AB5}.t6{border-bottom:3px solid #888}
+textarea{width:100%;font:inherit;border:2px solid var(--line);border-radius:.6rem;padding:.5rem;background:var(--surf);color:var(--ink)}
+ul.board{padding-left:1.2rem}
+@media (prefers-reduced-motion:no-preference){.clue,nav button{transition:background .2s,border-color .2s}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Let’s Introduce <span class="hi">Ourselves!</span></h1>
+<p>Media pembelajaran interaktif · Bahasa Inggris · Kelas 7</p>
+</header>
+<nav id="menu" role="tablist" aria-label="Bagian pembelajaran"></nav>
+<section id="panel" class="card" role="tabpanel" aria-live="polite"></section>
+</main>
+<script>
+const $=(s,r=document)=>r.querySelector(s);
+const menu=[["🔍","Apersepsi","Pancing rasa penasaran"],["📝","Asesmen Awal","Cek pemahamanmu"],["📚","Materi Pokok","Belajar langkah demi langkah"],["🏆","Kuis","Perkuat pemahaman"]];
+const steps=[["👋","Greeting","Hello, everyone! / Good morning, class."],["🏷️","Name","My name is Dika. / I’m Dika."],["🎂","Age","I’m 13 years old."],["🏠","Tempat tinggal","I live in Bandung. / I’m from Bali."],["🏫","Sekolah","I’m in class 7A."],["⚽","Hobby","My hobby is drawing. / I like playing football."],["🙏","Closing","Thank you for listening. Nice to meet you!"]];
+const pattern=[["Menyebut nama","My name is … / I’m …","My name is Rani."],["Menyebut umur","I’m … years old.","I’m 13 years old."],["Asal & tempat tinggal","I’m from … / I live in …","I live in Medan."],["Kelas","I’m in class …","I’m in class 7B."],["Hobi","My hobby is … / I like + V-ing","I like reading books."],["Menutup","Thank you. / Nice to meet you.","Nice to meet you, too!"]];
+const asesmen=[{t:"Menyebut nama",q:"Lengkapi: “___ name is Dika.”",o:["My","I","Me"],a:0},{t:"Salam",q:"Mana yang merupakan salam (greeting)?",o:["Good morning, everyone.","My hobby is reading.","I’m 13 years old."],a:0},{t:"Menyebut umur",q:"Lengkapi: “I ___ 13 years old.”",o:["is","am","are"],a:1},{t:"Urutan",q:"Urutan perkenalan yang paling tepat adalah …",o:["Thank you → Name → Hello","Hello → Name → Age → Hobby → Thank you","Hobby → Age → Hello"],a:1},{t:"Respons",q:"Temanmu berkata “Nice to meet you.” Jawabanmu …",o:["Goodbye.","You’re welcome.","Nice to meet you, too."],a:2}];
+const kuis=[{q:"Lengkapi: “Hi, ___ Sari. I’m from Bali.”",o:["I’m","She’s","They’re"],a:0,e:"Kita berbicara tentang diri sendiri, jadi memakai I’m (I am)."},{q:"Kalimat mana yang salah?",o:["My name is Dika.","My name are Dika.","I’m Dika."],a:1,e:"“Name” hanya satu, maka memakai is: My name is Dika."},{q:"Bagaimana menanyakan hobi temanmu?",o:["What’s your hobby?","Where’s your hobby?","How old is your hobby?"],a:0,e:"What dipakai untuk menanyakan hal/benda, termasuk hobi."},{q:"Kalimat hobi yang benar adalah …",o:["I am like football.","I like playing football.","I likes football."],a:1,e:"Setelah I, kata kerja tanpa -s: I like. Lalu playing football."},{q:"Kalimat penutup yang tepat untuk perkenalan adalah …",o:["Thank you for listening.","What’s your name?","Good morning."],a:0,e:"Perkenalan diakhiri dengan ucapan terima kasih."},{q:"Urutkan: (1) My hobby is drawing. (2) Hello, I’m Rani. (3) Thank you. Urutan terbaik …",o:["2 – 1 – 3","1 – 2 – 3","3 – 2 – 1"],a:0,e:"Mulai dengan salam dan nama, lalu informasi, lalu penutup."}];
+let board=[];
+function quiz(el,items,o){let i=0,s=0,log=[];function show(){if(i>=items.length)return end();const q=items[i];el.innerHTML=`<p class="count">Soal ${i+1} dari ${items.length}</p><h3>${q.q}</h3><div class="opts">${q.o.map((t,k)=>`<button data-k="${k}">${t}</button>`).join("")}</div><div class="fb"></div>`;el.querySelectorAll(".opts button").forEach(b=>b.onclick=()=>pick(+b.dataset.k))}
+function pick(k){const q=items[i],ok=k===q.a;if(ok)s++;log.push(ok);el.querySelectorAll(".opts button").forEach((b,j)=>{b.disabled=true;if(o.reveal){if(j===q.a)b.classList.add("ok");else if(j===k)b.classList.add("no")}else if(j===k)b.classList.add("sel")});const fb=$(".fb",el);fb.innerHTML=(o.reveal?`<p class="${ok?"good":"bad"}">${ok?"Benar!":"Belum tepat."} ${q.e}</p>`:"")+`<button class="next">${i+1<items.length?"Lanjut":"Lihat hasil"}</button>`;$(".next",fb).onclick=()=>{i++;show()}}
+function end(){el.innerHTML=o.end(s,items.length,log,items)+`<button class="next" id="again">Ulangi</button>`;$("#again",el).onclick=()=>{i=0;s=0;log=[];show()}}show()}
+const P={
+0(el){el.innerHTML=`<h2>Murid baru di depan kelas</h2><p>Hari pertama sekolah. Seorang murid baru berdiri di depan kelas… dan hanya tersenyum. Ketuk setiap petunjuk.</p>
+<div class="clues">${["Dia hanya punya 20 detik.","Teman-teman penasaran dengan beberapa hal tentangnya.","Dia memutuskan berbicara dalam bahasa Inggris!"].map((t,i)=>`<button class="clue" data-t="${t}">🔒 Petunjuk ${i+1}</button>`).join("")}</div>
+<h3 style="margin-top:1.2rem">Kotak penasaran</h3><p>Pilih satu pertanyaan yang ingin kamu bahas.</p>
+<div class="chips">${["Apa saja yang ingin kamu ketahui tentang teman baru?","Kalimat apa yang akan dia ucapkan pertama kali?","Bagaimana kalau dia lupa kata-katanya?","Apakah memperkenalkan diri ke guru sama dengan ke teman?"].map(t=>`<button class="chip" aria-pressed="false">${t}</button>`).join("")}</div>
+<div class="note" id="pic">Pilih pertanyaan di atas, lalu diskusikan bersama teman sebangku selama 1 menit.</div>
+<h3>Pertanyaanmu sendiri</h3><textarea id="myq" rows="2" placeholder="Tulis pertanyaan yang muncul di kepalamu…"></textarea>
+<button class="next" id="add">Tempel di papan</button><ul class="board" id="board"></ul>`;
+el.querySelectorAll(".clue").forEach(b=>b.onclick=()=>{const o=b.classList.toggle("open");b.textContent=o?b.dataset.t:"🔒 Petunjuk "+(+[...el.querySelectorAll(".clue")].indexOf(b)+1)});
+el.querySelectorAll(".chips .chip").forEach(b=>b.onclick=()=>{el.querySelectorAll(".chips .chip").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");$("#pic").textContent="Diskusikan 1 menit: “"+b.textContent+"” Tulis dugaanmu, nanti kita buktikan lewat materi."});
+const draw=()=>$("#board").innerHTML=board.map(t=>`<li>${t.replace(/</g,"&lt;")}</li>`).join("");draw();
+$("#add").onclick=()=>{const v=$("#myq").value.trim();if(v){board.push(v);$("#myq").value="";draw()}}},
+1(el){el.innerHTML=`<h2>Asesmen awal</h2><p>Tidak dinilai. Jawab sesuai kemampuanmu saat ini agar guru tahu bagian mana yang perlu diperkuat.</p><div id="q"></div>`;
+quiz($("#q"),asesmen,{reveal:false,end:(s,n,l,it)=>{const lv=s>=4?["Sudah paham","Kamu siap mencoba menyusun perkenalan sendiri."]:s>=2?["Mulai paham","Pelajari bagian yang masih salah di Materi Pokok."]:["Perlu pendampingan","Mulai dari awal di Materi Pokok, guru akan membantu."];return`<h3>Hasil: ${lv[0]}</h3><p>${lv[1]}</p><div class="bar"><i style="width:${s/n*100}%"></i></div><p>Skor ${s} dari ${n}</p>${it.map((q,k)=>`<p>${l[k]?"✅":"⬜"} ${q.t}</p>`).join("")}`}})},
+2(el){const tabs=["Apa itu?","Urutan","Pola kalimat","Contoh teks","Tips"];el.innerHTML=`<h2>Materi pokok</h2><div class="sub" id="sub">${tabs.map((t,i)=>`<button aria-pressed="${i==0}" data-i="${i}">${t}</button>`).join("")}</div><div id="m"></div>`;
+const V=[()=>`<h3>Apa itu self introduction?</h3><p>Self introduction adalah memperkenalkan diri sendiri kepada orang lain, yaitu menyebutkan nama dan informasi singkat tentang diri kita.</p><div class="chips"><span class="chip">🏫 Kelas baru</span><span class="chip">🤝 Teman baru</span><span class="chip">🎤 Lomba</span><span class="chip">💬 Wawancara</span></div><p style="margin-top:.8rem">Dalam bahasa Inggris, perkenalan diri biasanya pendek, jelas, dan sopan.</p>`,
+()=>`<h3>Urutan perkenalan</h3><p>Ketuk setiap langkah untuk melihat contoh kalimatnya.</p><div class="flow">${steps.map((s,i)=>`<button class="chip" aria-pressed="false" data-i="${i}"><span>${s[0]}</span>${s[1]}</button>${i<6?'<b class="arr">›</b>':""}`).join("")}</div><div class="note" id="ex">Pilih satu langkah.</div>`,
+()=>`<h3>Pola kalimat penting</h3><div class="wrap"><table><tr><th>Tujuan</th><th>Pola</th><th>Contoh</th></tr>${pattern.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join("")}</table></div><div class="note">I’m adalah singkatan dari I am. My name is… memakai is, bukan are.</div>`,
+()=>{const t=["Hello, everyone!","My name is Dika.","I’m 13 years old.","I live in Bandung.","I’m in class 7A.","My hobby is drawing.","Thank you for listening."];return`<h3>Contoh teks</h3><p>${t.map((x,i)=>`<span class="t${i}">${x}</span>`).join(" ")}</p><p>Warna garis bawah mengikuti urutan: salam, nama, umur, tempat tinggal, kelas, hobi, penutup. Coba ganti dengan datamu sendiri!</p>`},
+()=>`<h3>Tips tampil percaya diri</h3><div class="chips"><span class="chip">😊 Tersenyum</span><span class="chip">👀 Pandang teman</span><span class="chip">🔊 Suara jelas</span><span class="chip">🐢 Tidak terburu-buru</span></div><p style="margin-top:.8rem">Latihan dulu dengan teman sebangku. Tidak apa-apa salah, karena dari situ kita belajar.</p>`];
+const sh=i=>{$("#m").innerHTML=V[i]();if(i==1)el.querySelectorAll(".flow .chip").forEach(b=>b.onclick=()=>{el.querySelectorAll(".flow .chip").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");$("#ex").textContent=steps[b.dataset.i][2]})};
+$("#sub").querySelectorAll("button").forEach(b=>b.onclick=()=>{$("#sub").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");sh(+b.dataset.i)});sh(0)},
+3(el){el.innerHTML=`<h2>Kuis penguatan</h2><p>Jawab, lalu baca penjelasannya.</p><div id="q"></div>`;
+quiz($("#q"),kuis,{reveal:true,end:(s,n)=>`<h3>Skor ${s} dari ${n}</h3><div class="bar"><i style="width:${s/n*100}%"></i></div><p>${s==n?"Luar biasa! Kamu siap tampil memperkenalkan diri.":s>=4?"Bagus! Ulangi satu kali lagi untuk menyempurnakan.":"Tidak apa-apa. Buka lagi Materi Pokok lalu coba ulang kuis."}</p>`})}};
+function go(i){document.querySelectorAll("#menu button").forEach((b,k)=>b.setAttribute("aria-selected",k==i));P[i]($("#panel"))}
+$("#menu").innerHTML=menu.map((m,i)=>`<button role="tab" aria-selected="false"><span class="e">${m[0]}</span>${m[1]}<small>${m[2]}</small></button>`).join("");
+document.querySelectorAll("#menu button").forEach((b,i)=>b.onclick=()=>go(i));go(0);
+</script>
+</body>
+</html>
